@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:omedia_payment_app/core/constants/app_colors_constants.dart';
 import 'package:omedia_payment_app/core/constants/app_text_styles.dart';
 import 'package:omedia_payment_app/core/utils/formatter_widget.dart';

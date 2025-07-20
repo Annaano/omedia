@@ -5,7 +5,6 @@ import 'package:omedia_payment_app/presentation/screens/other_payments/other_pay
 import 'package:omedia_payment_app/presentation/screens/gold_payments/gold_payments_detail_screen.dart';
 import 'package:omedia_payment_app/presentation/screens/success/success_screen.dart';
 import 'package:omedia_payment_app/routes/route_names.dart';
-import 'package:omedia_payment_app/data/models/obligation_other_model.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {

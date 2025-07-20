@@ -4,8 +4,6 @@ import 'package:omedia_payment_app/core/utils/formatter_widget.dart';
 import 'package:omedia_payment_app/data/models/obligation_other_model.dart';
 import 'package:omedia_payment_app/presentation/screens/other_payments/widgets/breakdown_row_widget.dart';
 import 'package:omedia_payment_app/presentation/widgets/upcoming_payment_tile.dart';
-import 'package:omedia_payment_app/presentation/widgets/payment_selection_modal.dart';
-import 'package:omedia_payment_app/presentation/widgets/custom_button.dart';
 
 class ExpandablePaymentTile extends StatefulWidget {
   final Upcoming upcomingPayment;

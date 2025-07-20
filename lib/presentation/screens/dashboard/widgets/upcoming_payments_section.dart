@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:omedia_payment_app/core/constants/app_colors_constants.dart';
 import 'package:omedia_payment_app/core/constants/app_text_styles.dart';
 import 'package:omedia_payment_app/core/utils/formatter_widget.dart';
-import 'package:omedia_payment_app/logic/blocs/dashboard/dashboard_bloc.dart';
-import 'package:omedia_payment_app/logic/blocs/obligation_gold/obligation_gold_bloc.dart';
 import 'package:omedia_payment_app/logic/blocs/obligation_other/obligation_other_bloc.dart';
 import 'package:omedia_payment_app/logic/blocs/pdf/pdf_bloc.dart';
 import 'package:omedia_payment_app/presentation/screens/gold_payments/widgets/gold_upcoming_payments.dart';

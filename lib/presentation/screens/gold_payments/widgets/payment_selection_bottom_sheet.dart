@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:omedia_payment_app/core/constants/app_colors_constants.dart';
 import 'package:omedia_payment_app/core/constants/app_text_styles.dart';
 import 'package:omedia_payment_app/core/utils/formatter_widget.dart';
-import 'package:omedia_payment_app/data/models/obligation_other_model.dart';
-import 'package:omedia_payment_app/data/models/obligation_gold_model.dart';
 import 'package:omedia_payment_app/presentation/widgets/custom_button.dart';
 import 'package:omedia_payment_app/presentation/screens/gold_payments/widgets/payment_option_tile.dart';
 

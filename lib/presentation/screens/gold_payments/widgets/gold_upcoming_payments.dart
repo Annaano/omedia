@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:omedia_payment_app/core/constants/app_colors_constants.dart';
 import 'package:omedia_payment_app/core/utils/formatter_widget.dart';
 import 'package:omedia_payment_app/logic/blocs/obligation_gold/obligation_gold_bloc.dart';
 import 'package:omedia_payment_app/presentation/widgets/upcoming_payment_tile.dart';

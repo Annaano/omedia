@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:omedia_payment_app/core/constants/app_colors_constants.dart';
 import 'package:omedia_payment_app/core/utils/formatter_widget.dart';
 import 'package:omedia_payment_app/data/models/obligation_other_model.dart';
 import 'package:omedia_payment_app/presentation/screens/gold_payments/widgets/payment_break_down_card.dart';
-import 'package:omedia_payment_app/presentation/screens/other_payments/widgets/expandable_payment_tile.dart';
 import 'package:omedia_payment_app/presentation/widgets/custom_app_bar.dart';
 import 'package:omedia_payment_app/presentation/widgets/payment_info_card.dart';
-import 'package:omedia_payment_app/presentation/widgets/payment_selection_modal.dart';
 import 'package:omedia_payment_app/presentation/widgets/custom_button.dart';
-import 'package:omedia_payment_app/presentation/widgets/upcoming_payment_tile.dart';
-import 'package:omedia_payment_app/presentation/screens/other_payments/widgets/breakdown_row_widget.dart';
 import 'package:omedia_payment_app/presentation/widgets/payment_breakdown_bottom_sheet.dart';
-import 'package:omedia_payment_app/routes/app_router.dart';
 
 class GoldPaymentDetailScreen extends StatefulWidget {
   final Upcoming upcomingPayment;

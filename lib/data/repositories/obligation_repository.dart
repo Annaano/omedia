@@ -19,9 +19,8 @@ class ObligationRepository {
     return ObligationGoldModel.fromJson(response.data);
   }
 
-  /// Fetch PDF file (Obligation Transactions)
   Future<Uint8List> fetchTransactionsPdf() async {
     final response = await apiProvider.fetchPdfTransactions();
-    return response.data; // This is raw PDF bytes
+    return response.data;
   }
 }

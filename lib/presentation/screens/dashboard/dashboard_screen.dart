@@ -1,15 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:omedia_payment_app/logic/blocs/dashboard/dashboard_bloc.dart';
 import 'package:omedia_payment_app/presentation/screens/dashboard/widgets/app_bar_widget.dart';
 import 'package:omedia_payment_app/presentation/screens/dashboard/widgets/balance_card.dart';
 import 'package:omedia_payment_app/presentation/screens/dashboard/widgets/obligation_summary.dart';
 import 'package:omedia_payment_app/presentation/screens/dashboard/widgets/upcoming_payments_section.dart';
 import 'package:omedia_payment_app/presentation/widgets/bottom_navigation_bar.dart';
-import '../../../core/constants/app_colors_constants.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});

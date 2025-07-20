@@ -8,7 +8,6 @@ import 'package:omedia_payment_app/logic/blocs/pdf/pdf_bloc.dart';
 
 import 'data/providers/obligation_api_provider.dart';
 import 'routes/app_router.dart';
-import 'routes/route_names.dart';
 import 'presentation/screens/dashboard/dashboard_screen.dart';
 
 void main() {
